@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <section class="container topbar flex">
+            <div class="subparts">
+                <a href="index.html" id="newslogo"><img src="img/newslogo.svg" alt=""></a>
+            </div>
+            <ul class="subparts navbar flex">
+                    <li class="navitem">Sports</li>
+                    <li class="navitem">Finance</li>
+                    <li class="navitem">Politics</li>
+                    <li class="navitem">Technology</li>
+            </ul>
+                <!-- <a class="navitem" href="http://">Sports</a>
+                <a class="navitem" href="http://">Finance</a>
+                <a class="navitem" href="http://">Politics</a>
+                <a class="navitem" href="http://">Technology</a> -->
+            <div class="subparts search flex">
+                <input id="searchtext" class="searchbar" type="text" placeholder="Eg: Science">
+                <button id="searchbutton" class="searchbutton">Search</button>
+            </div>
+        </section>
+        </nav>
+    </header>
+        <main>
+            <div class="cards-grid grid container" id="cardcontainer">
+                
+            </div>
+        </main>
+    <script src="script.js"></script>
+    <template id="templatenewscard">
+        <div class="card flex">
+            <div class="cardimg flex">
+            <img id="newsimg" src="https://via.placeholder.com/400x200" alt="">
+        </div>
+        <div class="cardcontent flex">
+            <h2 class="newstitle" id="newstitle">News headline</h2>
+            <h6 id="newssource">new channel date and time</h6>
+            <p class="news" id="newsdesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quas repudiandae minus quidem neque? Ea vitae cupiditate minima iure nihil!Lorem, ipsum dolor sit amet consectetur </p>
+        </div>
+    </template>
+</body>
+</html>
