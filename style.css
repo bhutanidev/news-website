@@ -51,8 +51,8 @@ p{
 }
 .subparts img{
     /* border: 1px solid black; */
-    width: 90px;
-    height: 65px;
+    width: 120px;
+    height: 75px;
     object-fit: cover;
 }
 .navbar{
@@ -74,6 +74,42 @@ p{
     gap: 10px;
     align-items: center;
 }
+
+/* 
+
+
+.searchbar {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 250px;
+    transition: width 0.4s ease-in-out;
+}
+
+.searchbar input:focus {
+    width: 300px;
+    border-color: #007BFF;
+}
+.searchbutton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.searchbutton:hover {
+    background-color: #0056b3;
+}
+ */
 .searchbar input{
     width: 200px;
     height: 100%;
